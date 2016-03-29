@@ -11,7 +11,9 @@
 }
 
 .services {
-    background-image: url("img/360bridge-min.jpg");
+    background: -webkit-linear-gradient(rgba(171, 39, 39, .3), rgba(171, 39, 39, .3)), url('http://i.imgur.com/hw9iX3z.jpg');
+    background: -o-linear-gradient(rgba(171, 39, 39, .3), rgba(171, 39, 39, .3)), url('http://i.imgur.com/hw9iX3z.jpg');
+    background: linear-gradient(rgba(171, 39, 39, .3), rgba(171, 39, 39, .3)), url('http://i.imgur.com/hw9iX3z.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -38,7 +40,7 @@ a {
 }
 
 .btn:hover {
-    background: #66CDAA;
+    background: #ab2727;
     border-color: transparent;
     color: #fff;
     -webkit-transition: all 0.5s ease;
@@ -46,14 +48,14 @@ a {
 }
 
 .btn:focus {
-    background: #66CDAA;
+    background: #ab2727;
     color: #fff;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #66CDAA;
+    color: #ab2727;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
 }
@@ -110,7 +112,7 @@ a:focus {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.5);
-    color: #66CDAA;
+    color: #ab2727;
     text-decoration: none;
     visibility: hidden;
     opacity: 0;
@@ -136,7 +138,7 @@ a:focus {
 
 .perks {
     font-size: 7em;
-    background: #66CDAA;
+    background: #ab2727;
     border-radius: 50%;
     padding: .25em;
 }
