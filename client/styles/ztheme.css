@@ -1,0 +1,337 @@
+/* CSS declarations go here */
+
+* {
+    font-family: Ubuntu;
+}
+
+h1,
+h3 {
+    color: #66CDAA;
+    text-shadow: 2px 2px 15px #FFF;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -38px
+}
+
+.hero-unit {
+    padding: 6em;
+    background: url("img/skyline.jpg") no-repeat fixed top;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+#scrollArrow {
+    font-size: 3em;
+    color: #fff;
+    border-radius: 1em;
+    opacity: .5;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#scrollArrow:hover {
+    color: #66CDAA;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.hero-unit-inner {
+    padding-bottom: 15em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.hero-unit-inner > h1 {
+    color: white;
+}
+
+.navbar-fixed-top {
+    height: 85px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.navbar-right {
+    padding-top: 15px;
+}
+
+.navbar-toggle {
+    background-color: #000000;
+    top: 12px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle:active .icon-bar {
+    background-color: #66CDAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+.navbar-brand {
+    margin-bottom: 30px;
+}
+
+.navbar-inner {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-top: 20px;
+}
+
+.navbar .nav > li > a {
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav > li > a:hover,
+a:focus {
+    border-bottom: 1px solid #66CDAA;
+    color: #66CDAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background-color: transparent;
+}
+
+.navbar .nav > li > a:focus {
+    color: #66CDAA;
+    border-bottom: 1px solid #66CDAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background-color: transparent;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    box-shadow: none;
+    color: #66CDAA;
+}
+
+.widgets {
+    background-image: url("img/sixth-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    color: white;
+}
+
+.widgets a {
+    color: white;
+}
+
+.widgets a:hover {
+    color: #66CDAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.footer-links {
+    padding-top: 50px;
+    list-style: none;
+}
+
+.footerLink {
+    display: inline-block;
+    padding: .25em;
+}
+
+.footer_links_background {
+    padding-top: 50px;
+    margin-left: -1.04em;
+    margin-right: -1.04em;
+    background-color: #000000;
+}
+
+.smallHr {
+    width: 50px;
+    border-width: 3px;
+    border-color: #66CDAA;
+}
+
+.socialIcons {
+    font-size: 2em;
+    padding: .25em;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.projectPic {
+    veritcal-align: 50%;
+}
+
+.thumbnail,
+.img-polaroid {
+    height: 400px;
+    width: 514px;
+    /*height: 18em;
+    width: 30em;*/
+}
+
+.badge-success {
+    background: #66CDAA;
+}
+
+.smallHr {
+    padding-bottom: 50px;
+}
+
+/*.odd {
+    background: rgba(0,0,0,0.1);
+    background-size: 5em;
+    padding-top: 2em;
+    padding-right: -5em;
+    padding-left: -5em;
+}*/
+
+@media (max-width: 980px) {
+    .img-polaroid {
+        height: 300px;
+        width: 414px;
+    }
+    .imgWrap {
+        height: 300px;
+        width: 414px;
+    }
+    .smallText {
+        font-size: 15px;
+    }
+    /*#services {
+        margin-right: -4em;
+        margin-left: -4em;
+    }
+    .widgets {
+        margin-right: -4em;
+        margin-left: -4em;
+    }*/
+}
+
+.backToTop {
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 10px;
+}
+
+.backToTop a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    outline: none;
+    border-radius: 50%;
+    opacity: 0.5;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.backToTop a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    .container > .navbar-header,
+    .container-fluid > .navbar-header,
+    .container > .navbar-collapse,
+    .container-fluid > .navbar-collapse {
+        background-color: #000000;
+    }
+}
+
+@media (max-width: 684px) {
+    /*.hero-unit {
+        margin-right: -1.5em;
+        margin-left: -1.5em;
+    }*/
+    .hero-unit {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+    }
+    .services {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+    }
+    .widgets {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: inherit;
+    }
+    .smallText {
+        font-size: 15px;
+    }
+    .img-polaroid {
+        height: 300px;
+        width: 364px;
+    }
+    .imgWrap {
+        height: 300px;
+        width: 364px;
+        font-size: .5em;
+    }
+    .recommendations > iframe {
+        width: 250px;
+    }
+    /* #services {
+        margin-right: -4em;
+        margin-left: -4em;
+    }
+    .widgets {
+        margin-right: -4em;
+        margin-left: -4em;
+    }*/
+}
+
+@media (max-width: 400px) {
+    .smallText {
+        font-size: 12px;
+    }
+    .img-polaroid {
+        height: 200px;
+        width: 264px;
+    }
+    .imgWrap {
+        height: 200px;
+        width: 264px;
+        font-size: .5em;
+    }
+    .recommendations > iframe {
+        width: 150px;
+    }
+
+
+}
